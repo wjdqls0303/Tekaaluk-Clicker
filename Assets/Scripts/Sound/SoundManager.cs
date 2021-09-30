@@ -13,6 +13,9 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private AudioClip clip;
 
+    [SerializeField]
+    private AudioSource clicksource;
+
     void Start()
     {
         theAudio = GetComponent<AudioSource>();
@@ -21,7 +24,6 @@ public class SoundManager : MonoBehaviour
     public void PlaySE()
     {
         theAudio.clip = clip;
-        
         theAudio.Play();
     }
 
@@ -33,5 +35,10 @@ public class SoundManager : MonoBehaviour
     public void SetMusicVolume2(float volume2)
     {
         musicsource.volume = volume2;
+    }
+
+    public void SetMusicVolume3(float volume3)
+    {
+        clicksource.volume = volume3;
     }
 }
