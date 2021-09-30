@@ -5,7 +5,7 @@ using UnityEngine;
 public class SoundManager : MonoBehaviour
 {
     [SerializeField]
-    private AudioSource theAudio;
+    private AudioSource clicksource;
 
     [SerializeField]
     private AudioSource musicsource;
@@ -13,32 +13,24 @@ public class SoundManager : MonoBehaviour
     [SerializeField]
     private AudioClip clip;
 
-    [SerializeField]
-    private AudioSource clicksource;
-
     void Start()
     {
-        theAudio = GetComponent<AudioSource>();
+        clicksource = GetComponent<AudioSource>();
     }
 
     public void PlaySE()
     {
-        theAudio.clip = clip;
-        theAudio.Play();
+        clicksource.clip = clip;
+        clicksource.Play();
     }
 
     public void SetMusicVolume(float volume)
     {
-        theAudio.volume = volume;
+        clicksource.volume = volume;
     }
 
     public void SetMusicVolume2(float volume2)
     {
         musicsource.volume = volume2;
-    }
-
-    public void SetMusicVolume3(float volume3)
-    {
-        clicksource.volume = volume3;
     }
 }

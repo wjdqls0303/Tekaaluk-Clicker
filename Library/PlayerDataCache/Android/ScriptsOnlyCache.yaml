@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BackgroundMove
+    - BuySoundManager
     - CameraResolution
     - FishText
     - GameManager
@@ -109,6 +110,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4596}
     - Class: 114
       Script: {instanceID: 5650}
+    - Class: 114
+      Script: {instanceID: 30648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -319,7 +322,7 @@ ScriptsOnlyBuild:
     className: IKManager2D
   - hash:
       serializedVersion: 2
-      Hash: 1e1de123d433427f02b601d4d78d427e
+      Hash: 0d5a85b5e1fca0b9515e98276878dc00
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManager
@@ -767,6 +770,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: eb6954f9f9a20fc2ba5b4919728cbec7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BuySoundManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/StartView.unity

@@ -1,0 +1,6 @@
+com.yjbCompany.CatClicker.BuildConfig
+com.yjbCompany.CatClicker.R
+com.yjbCompany.CatClicker.R$id
+com.yjbCompany.CatClicker.R$mipmap
+com.yjbCompany.CatClicker.R$string
+com.yjbCompany.CatClicker.R$style
