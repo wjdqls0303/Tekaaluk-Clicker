@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "com.yjbCompany.CatClicker",
+  "applicationId": "com.yjbCompany.TekaalukClicker",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-release.ap_",
       "properties": {
-        "packageId": "com.yjbCompany.CatClicker",
+        "packageId": "com.yjbCompany.TekaalukClicker",
         "split": "",
         "minSdkVersion": "19"
       }

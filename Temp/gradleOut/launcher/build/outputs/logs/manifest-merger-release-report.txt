@@ -5,11 +5,12 @@ INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest
 INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
 INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
 MERGED from [:unityLibrary] C:\CatClickerGame\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:3:1-67:12
+MERGED from [:unityLibrary:unity-android-resources] C:\CatClickerGame\Temp\gradleOut\unityLibrary\unity-android-resources\build\intermediates\library_manifest\release\AndroidManifest.xml:2:1-11:12
 INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
 INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
 INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
 	package
-		ADDED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:70-105
+		ADDED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:70-110
 		INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 		INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 	android:versionName
@@ -17,7 +18,7 @@ INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest
 		ADDED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
 		INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:106-152
+		ADDED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:111-157
 	android:versionCode
 		INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 		ADDED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:1-6:12
@@ -25,7 +26,7 @@ INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest
 	xmlns:android
 		ADDED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:11-69
 	android:installLocation
-		ADDED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:153-193
+		ADDED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:3:158-198
 supports-screens
 ADDED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml:4:3-163
 	android:largeScreens
@@ -54,6 +55,8 @@ INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest
 INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 MERGED from [:unityLibrary] C:\CatClickerGame\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
 MERGED from [:unityLibrary] C:\CatClickerGame\Temp\gradleOut\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:9:5-11:41
+MERGED from [:unityLibrary:unity-android-resources] C:\CatClickerGame\Temp\gradleOut\unityLibrary\unity-android-resources\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
+MERGED from [:unityLibrary:unity-android-resources] C:\CatClickerGame\Temp\gradleOut\unityLibrary\unity-android-resources\build\intermediates\library_manifest\release\AndroidManifest.xml:7:5-9:41
 INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 INJECTED from C:\CatClickerGame\Temp\gradleOut\launcher\src\main\AndroidManifest.xml
 	android:targetSdkVersion

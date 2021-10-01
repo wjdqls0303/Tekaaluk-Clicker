@@ -111,7 +111,7 @@
 62-->C:\CatClickerGame\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:5-101
 63            android:name="unity.build-id"
 63-->C:\CatClickerGame\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:16-45
-64            android:value="75a1f2a6-687f-49f6-9680-abcdcb981fdd" />
+64            android:value="d7ca0adb-dbf6-43e1-9025-0e9e2a010c70" />
 64-->C:\CatClickerGame\Temp\gradleOut\unityLibrary\src\main\AndroidManifest.xml:17:46-98
 65    </application>
 66
