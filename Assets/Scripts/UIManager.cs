@@ -81,7 +81,7 @@ public class UIManager : MonoBehaviour
 
     public void OnToggleChanged(bool isOn)
     {
-        controlPanel.DOAnchorPosY(isOn ? 925f : 0f, 0.4f).SetEase(Ease.InCirc);
+        controlPanel.DOAnchorPosY(isOn ? 925f : -310f, 0.4f).SetEase(Ease.InCirc);
     }
 
     public void UpdateFishPanel()

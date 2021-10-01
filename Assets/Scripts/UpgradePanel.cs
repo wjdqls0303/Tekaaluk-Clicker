@@ -15,6 +15,12 @@ public class UpgradePanel : MonoBehaviour
     private Button purchaseButton = null;
     [SerializeField]
     private Sprite[] abilitySprite;
+    [SerializeField]
+    private AudioSource buysource;
+    [SerializeField]
+    private AudioClip clip2;
+
+    private BuySoundManager buySoundManager = null;
 
     private Ability ability = null;
 
@@ -22,6 +28,7 @@ public class UpgradePanel : MonoBehaviour
 
     public void Start()
     {
+        buysource = GetComponent<AudioSource>();
         UpdateUpgradePanelUI();
     }
 
@@ -39,6 +46,15 @@ public class UpgradePanel : MonoBehaviour
         amountText.text = string.Format("{0} °³", ability.Amount);
     }
 
+    public void SetMusicVolume3(float volume3)
+    {
+        buysource.volume = volume3;
+    }
+    public void PlaySE2()
+    {
+        
+    }
+
     public void OnClickPurchase()
     {
         if(GameManager.Instance.CurrentUser.fish < ability.Price)
@@ -53,6 +69,9 @@ public class UpgradePanel : MonoBehaviour
             GameManager.Instance.CurrentUser.fpc *= 3;
             ability.Price *= 6;
         }
+        buysource.clip = clip2;
+        buysource.Play();
+        PlaySE2();
         UpdateUpgradePanelUI();
         GameManager.Instance.UI.UpdateFishPanel();
     }
