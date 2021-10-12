@@ -1,8 +1,0 @@
-com.yjbCompany.TekaalukClicker.BuildConfig
-com.yjbCompany.TekaalukClicker.R
-com.yjbCompany.TekaalukClicker.R$id
-com.yjbCompany.TekaalukClicker.R$mipmap
-com.yjbCompany.TekaalukClicker.R$string
-com.yjbCompany.TekaalukClicker.R$style
-com.yjbCompany.TekaalukClicker.resources.BuildConfig
-com.yjbCompany.TekaalukClicker.resources.R

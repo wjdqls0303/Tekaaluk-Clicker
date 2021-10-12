@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-   <string name="app_name">ë–¼ê»„ë£© í‚¤ìš°ê¸°</string>
-</resources>
+<? xml version = "1.0" encoding = "UTF-8" ?>
+   < resources >
+   
+     < string name = "app_name" > ¶¼²¬·èÅ°¿ì±â</string>
+        </resources>
