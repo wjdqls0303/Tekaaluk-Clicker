@@ -1,1 +1,20 @@
 Temp/UnityLockfile
+# Unity cache
+Library/
+Temp/
+Logs/
+Obj/
+UserSettings/
+
+# Build files
+Build/
+Builds/
+
+# IDE
+.vs/
+*.csproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
